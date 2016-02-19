@@ -5,6 +5,7 @@ language: ruby
 script:
   - true
   - echo "boop"
+  - echo "womp rats"
 
 matrix:
   include:
