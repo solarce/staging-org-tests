@@ -1,5 +1,310 @@
 sudo: required
 dist: trusty
+language: ruby
 
 script:
   - true
+
+matrix:
+  include:
+  - os: linux
+    env: 1 
+
+  - os: linux
+    env: 2 
+
+  - os: linux
+    env: 3 
+
+  - os: linux
+    env: 4 
+
+  - os: linux
+    env: 5 
+
+  - os: linux
+    env: 6 
+
+  - os: linux
+    env: 7 
+
+  - os: linux
+    env: 8 
+
+  - os: linux
+    env: 9 
+
+  - os: linux
+    env: 10 
+
+  - os: linux
+    env: 11 
+
+  - os: linux
+    env: 12 
+
+  - os: linux
+    env: 13 
+
+  - os: linux
+    env: 14 
+
+  - os: linux
+    env: 15 
+
+  - os: linux
+    env: 16 
+
+  - os: linux
+    env: 17 
+
+  - os: linux
+    env: 18 
+
+  - os: linux
+    env: 19 
+
+  - os: linux
+    env: 20 
+
+  - os: linux
+    env: 21 
+
+  - os: linux
+    env: 22 
+
+  - os: linux
+    env: 23 
+
+  - os: linux
+    env: 24 
+
+  - os: linux
+    env: 25 
+
+  - os: linux
+    env: 26 
+
+  - os: linux
+    env: 27 
+
+  - os: linux
+    env: 28 
+
+  - os: linux
+    env: 29 
+
+  - os: linux
+    env: 30 
+
+  - os: linux
+    env: 31 
+
+  - os: linux
+    env: 32 
+
+  - os: linux
+    env: 33 
+
+  - os: linux
+    env: 34 
+
+  - os: linux
+    env: 35 
+
+  - os: linux
+    env: 36 
+
+  - os: linux
+    env: 37 
+
+  - os: linux
+    env: 38 
+
+  - os: linux
+    env: 39 
+
+  - os: linux
+    env: 40 
+
+  - os: linux
+    env: 41 
+
+  - os: linux
+    env: 42 
+
+  - os: linux
+    env: 43 
+
+  - os: linux
+    env: 44 
+
+  - os: linux
+    env: 45 
+
+  - os: linux
+    env: 46 
+
+  - os: linux
+    env: 47 
+
+  - os: linux
+    env: 48 
+
+  - os: linux
+    env: 49 
+
+  - os: linux
+    env: 50 
+
+  - os: linux
+    env: 51 
+
+  - os: linux
+    env: 52 
+
+  - os: linux
+    env: 53 
+
+  - os: linux
+    env: 54 
+
+  - os: linux
+    env: 55 
+
+  - os: linux
+    env: 56 
+
+  - os: linux
+    env: 57 
+
+  - os: linux
+    env: 58 
+
+  - os: linux
+    env: 59 
+
+  - os: linux
+    env: 60 
+
+  - os: linux
+    env: 61 
+
+  - os: linux
+    env: 62 
+
+  - os: linux
+    env: 63 
+
+  - os: linux
+    env: 64 
+
+  - os: linux
+    env: 65 
+
+  - os: linux
+    env: 66 
+
+  - os: linux
+    env: 67 
+
+  - os: linux
+    env: 68 
+
+  - os: linux
+    env: 69 
+
+  - os: linux
+    env: 70 
+
+  - os: linux
+    env: 71 
+
+  - os: linux
+    env: 72 
+
+  - os: linux
+    env: 73 
+
+  - os: linux
+    env: 74 
+
+  - os: linux
+    env: 75 
+
+  - os: linux
+    env: 76 
+
+  - os: linux
+    env: 77 
+
+  - os: linux
+    env: 78 
+
+  - os: linux
+    env: 79 
+
+  - os: linux
+    env: 80 
+
+  - os: linux
+    env: 81 
+
+  - os: linux
+    env: 82 
+
+  - os: linux
+    env: 83 
+
+  - os: linux
+    env: 84 
+
+  - os: linux
+    env: 85 
+
+  - os: linux
+    env: 86 
+
+  - os: linux
+    env: 87 
+
+  - os: linux
+    env: 88 
+
+  - os: linux
+    env: 89 
+
+  - os: linux
+    env: 90 
+
+  - os: linux
+    env: 91 
+
+  - os: linux
+    env: 92 
+
+  - os: linux
+    env: 93 
+
+  - os: linux
+    env: 94 
+
+  - os: linux
+    env: 95 
+
+  - os: linux
+    env: 96 
+
+  - os: linux
+    env: 97 
+
+  - os: linux
+    env: 98 
+
+  - os: linux
+    env: 99 
+
+  - os: linux
+    env: 100 
+
+
