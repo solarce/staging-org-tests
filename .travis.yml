@@ -6,6 +6,7 @@ script:
   - true
   - echo "boop"
   - echo "womp rats"
+  - sleep $(( $RANDOM % 900 ))
 
 matrix:
   include:
