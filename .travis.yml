@@ -4,6 +4,7 @@ language: ruby
 
 script:
   - true
+  - echo "boop"
 
 matrix:
   include:
