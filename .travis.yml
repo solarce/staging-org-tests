@@ -1,3 +1,6 @@
-language: ruby
+language: objective-c
 os: osx
 osx_image: beta-xcode6.4
+script:
+  - uname -a
+  - xcodebuild -version
