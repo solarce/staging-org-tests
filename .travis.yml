@@ -2,5 +2,6 @@ language: objective-c
 os: osx
 osx_image: xcode8
 script:
+  - df -h /
   - uname -a
   - xcodebuild -version
