@@ -7,3 +7,4 @@ script:
   - xcodebuild -version
   - pod setup
   - brew update
+  - echo "yay"
