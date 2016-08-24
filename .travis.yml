@@ -5,4 +5,4 @@ script:
   - df -h /
   - uname -a
   - xcodebuild -version
-  - echo "xcode8b6"
+  - echo "hi"
