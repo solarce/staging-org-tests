@@ -5,4 +5,4 @@ script:
   - df -h /
   - uname -a
   - xcodebuild -version
-  - echo "hi"
+# xcode8gm
