@@ -3,6 +3,7 @@ script:
   - df -h /
   - uname -a
   - xcodebuild -version
+  - system_profiler SPHardwareDataType
 
 matrix:
   include:
