@@ -1,5 +1,6 @@
 language: objective-c
 os: osx
+osx_image: xcode7.3
 script:
   - uname -a
   - xcodebuild -version
