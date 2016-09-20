@@ -1,6 +1,14 @@
 language: objective-c
-os: osx
-osx_image: xcode8
+
+matrix:
+  include:
+  - os: osx
+    osx_image: beta-xcode6.2
+  - os: osx
+    osx_image: beta-xcode6.3
+  - os: osx
+    osx_image: xcode6.4 
+
 script:
   - uname -a
   - xcodebuild -version
