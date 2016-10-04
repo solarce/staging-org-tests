@@ -2,14 +2,4 @@ language: objective-c
 osx_image: beta-xcode6.1
 
 script:
-  - uname -a
-  - df -h /
-  - xcodebuild -version
-  - brew list --versions
-  - brew cask list --versions
-  - if [[ $(uname -r) == 15.6.0 ]]; then nvm list; else echo "nope"; fi
-  - rvm list
-  - python2.6 --version
-  - python2.7 --version
-  - motion --version
-  - pod --version
+  - pip list
