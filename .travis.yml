@@ -1,5 +1,6 @@
 language: objective-c
-osx_image: beta-xcode6.1
+os: osx
 
 script:
+  - pyenv
   - pip list
