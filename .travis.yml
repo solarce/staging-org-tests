@@ -1,6 +1,14 @@
-language: c
-sudo: required
-dist: trusty
+language: objective-c
+
+matrix:
+  include:
+  - os: osx
+    osx_image: beta-xcode6.2
+  - os: osx
+    osx_image: beta-xcode6.3
+
+install:
+  - brew update
+
 script:
-  - sudo apt-get clean
-  - sudo apt-get update
+  - pod --version
