@@ -9,4 +9,5 @@ matrix:
 
 
 script:
+  - uname -a
   - xcrun simctl list
