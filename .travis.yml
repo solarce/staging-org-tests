@@ -11,3 +11,4 @@ script:
   - xcodebuild -version
   - xcodebuild -sdk
   - xcrun simctl list
+  - xcrun simctl list pairs
