@@ -9,6 +9,5 @@ matrix:
 script:
   - uname -a
   - xcodebuild -version
-  - xcodebuild -sdk
   - xcrun simctl list
   - xcrun simctl list pairs
