@@ -11,4 +11,3 @@ script:
   - xcodebuild -version
   - xcrun simctl list
   - xcrun simctl list pairs
-  - echo "hi"
