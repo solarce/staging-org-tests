@@ -11,4 +11,4 @@ script:
   - xcodebuild -version
   - xcrun simctl list
   - xcrun simctl list pairs
-  - echo "xcode9b4"
+  - echo "xcode9b5"
