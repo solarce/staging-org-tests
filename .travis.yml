@@ -11,4 +11,4 @@ script:
   - xcodebuild -version
   - xcrun simctl list
   - xcrun simctl list pairs
-  - echo "xcode9gm "
+  - echo "xcode9 stable final!"
